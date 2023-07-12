@@ -10,7 +10,7 @@
 }
 #main {
   /* H1 bold */
-  padding: 25px 25px 5px 20px ;
+  padding: 25px 25px 5px 20px;
   font-family: "Poppins";
   font-size: 48px;
   font-style: normal;
@@ -29,6 +29,8 @@
   line-height: 140%;
   text-transform: capitalize;
 }
-.body{
-    display: flex;
+.body {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }

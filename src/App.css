@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
   margin: 0px;
   border: 0px;
   box-sizing: border-box;
   font-family: "poppins";
 }
 .App {
-  background-color: #E7EFFF;
+  background-color: #e7efff;
+  width: 100%;
 }
 
-.main{
-  display: flex;
+.main {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
   width: 100%;
 }
-.header{
+/* .header {
   width: 100%;
-}
+} */
